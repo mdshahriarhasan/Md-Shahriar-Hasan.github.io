@@ -1,92 +1,59 @@
-# Md-Shahriar-Hasan.github.io
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+# ----------------------------------------------
+# Academic Pages Config for Md Shahriar Hasan
+# ----------------------------------------------
 
-  <title>MD Shahriar Hasan | PhD Student, New Mexico Tech</title>
+# Site settings
+title: "Md Shahriar Hasan"
+description: "PhD Candidate in Chemistry | Energy Storage Researcher"
+url: "https://mdshahriarhasan.github.io"
+baseurl: "" # leave empty unless hosted in a subfolder
+email: "your.email@domain.com"
+twitter_username: ""
+github_username: "mdshahriarhasan"
+linkedin_username: "your-linkedin"
+researchgate_username: "YourName"
+scholar_username: "YourScholarID"
+# Optional: add ORCID, etc.
+orcid_id: ""  
 
-  <!-- Basic SEO -->
-  <meta name="description" content="MD Shahriar Hasan is a PhD student at New Mexico Institute of Mining and Technology (New Mexico Tech), working on electrochemical energy storage and redox flow batteries.">
-  <meta name="keywords" content="MD Shahriar Hasan, Shahriar Hasan, NMT, New Mexico Tech, electrochemical energy storage, redox flow batteries">
+# Theme
+theme: "academicpages" # default Jekyll Academic Pages theme
 
-  <!-- Google image indexing -->
-  <meta name="robots" content="index, follow">
-  <meta name="googlebot-image" content="index">
+# Navigation
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Contact"
+    url: "/contact/"
 
-  <!-- Open Graph (helps Google & LinkedIn) -->
-  <meta property="og:title" content="MD Shahriar Hasan">
-  <meta property="og:description" content="PhD Student at New Mexico Tech | Electrochemical Energy Storage">
-  <meta property="og:image" content="https://mdshahriarhasan.github.io/md-shahriar-hasan.jpg">
-  <meta property="og:type" content="profile">
-  <meta property="og:url" content="https://mdshahriarhasan.github.io/">
+# Social links (displayed as icons in header/footer)
+social:
+  - name: "GitHub"
+    url: "https://github.com/mdshahriarhasan"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/yourprofile"
+  - name: "ResearchGate"
+    url: "https://www.researchgate.net/profile/YourName"
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=YourScholarID"
 
-  <!-- Schema.org Person -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "MD Shahriar Hasan",
-    "affiliation": {
-      "@type": "Organization",
-      "name": "New Mexico Institute of Mining and Technology"
-    },
-    "jobTitle": "PhD Student",
-    "url": "https://mdshahriarhasan.github.io/",
-    "image": "https://mdshahriarhasan.github.io/md-shahriar-hasan.jpg",
-    "sameAs": [
-      "https://www.researchgate.net/profile/Md-Shahriar-Hasan-2",
-      "https://scholar.google.com",
-      "https://www.linkedin.com"
-    ]
-  }
-  </script>
+# Optional profile picture
+avatar: "assets/images/profile.jpg" # add your photo here
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 720px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #222;
-    }
-    img {
-      width: 220px;
-      border-radius: 8px;
-      display: block;
-      margin-bottom: 20px;
-    }
-    h1 {
-      margin-bottom: 5px;
-    }
-    p {
-      line-height: 1.6;
-    }
-    a {
-      color: #0a66c2;
-      text-decoration: none;
-    }
-  </style>
-</head>
+# Footer
+footer: "© 2026 Md Shahriar Hasan. Built with Jekyll & Academic Pages."
 
-<body>
-
-  <img src="md-shahriar-hasan.jpg" alt="MD Shahriar Hasan PhD Student New Mexico Tech">
-
-  <h1>MD Shahriar Hasan</h1>
-  <p><strong>PhD Student</strong>, New Mexico Institute of Mining and Technology (New Mexico Tech)</p>
-
-  <p>
-    PhD candidate in Chemistry | Energy Storage Enthusiast
-Exploring the real-world degradation mechanisms of redox flow batteries to make energy storage safer, more efficient, and long-lasting. Passionate about combining experiments and data-driven insights to advance sustainable technologies.
-  </p>
-
-  <p>
-    Profiles:
-    <a href="https://www.researchgate.net/profile/Md-Shahriar-Hasan-2" target="_blank">ResearchGate</a> |
-    <a href="https://scholar.google.com/citations?user=Tft2hC8AAAAJ&hl=en" target="_blank">Google Scholar</a> |
-    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-  </p>
-
-</body>
-</html>
+# Markdown and plugins
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
