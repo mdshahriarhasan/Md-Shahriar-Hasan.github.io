@@ -77,8 +77,8 @@
   <p><strong>PhD Student</strong>, New Mexico Institute of Mining and Technology (New Mexico Tech)</p>
 
   <p>
-    I am a PhD student working on <strong>electrochemical energy storage</strong>, with a focus on
-    <strong>aqueous organic redox flow batteries</strong>, degradation mechanisms, and long-duration energy storage.
+    PhD candidate in Chemistry | Energy Storage Enthusiast
+Exploring the real-world degradation mechanisms of redox flow batteries to make energy storage safer, more efficient, and long-lasting. Passionate about combining experiments and data-driven insights to advance sustainable technologies.
   </p>
 
   <p>
