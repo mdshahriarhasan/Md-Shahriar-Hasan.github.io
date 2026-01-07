@@ -84,7 +84,7 @@
   <p>
     Profiles:
     <a href="https://www.researchgate.net/profile/Md-Shahriar-Hasan-2" target="_blank">ResearchGate</a> |
-    <a href="https://scholar.google.com" target="_blank">Google Scholar</a> |
+    <a href="[https://scholar.google.com](https://scholar.google.com/citations?user=Tft2hC8AAAAJ&hl=en)" target="_blank">Google Scholar</a> |
     <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
   </p>
 
